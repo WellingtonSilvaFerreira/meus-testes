@@ -1,17 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pag002</title>
+    <style>
+        button:hover{
+            background-color: red;
+            color: white;
+        }
+        button{
+            margin-left: 240px;
+        }
+        #img{
+            margin-left: 290px;
+        }
+        body{
+            background-color: darkgray;
+
+        }
+        iframe{
+            
+            margin-left: 30px;
+            margin-top: 50px;
+        }
+        div{
+            border: 1px solid black;
+            width: 650px;
+            background-color: aqua;
+            
+        }
+        #container{
+            justify-content: center;
+        }
+    </style>
     
 </head>
 <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=QvDhWV6JnMMVTLZ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+  
+        <div id="container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=QvDhWV6JnMMVTLZ5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br>
+    
 
     <a href="https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o" target="_blank" rel="external"><abbr title="youtube"><button>Assista completo aqui</button></abbr></a><br>
 
-    <a href="exercicio02.html"><abbr title="voltar"><img src="imagens/voltar.png" alt="voltar"></abbr></a>
+    <a href="exercicio02.html" target="_self"><abbr title="voltar"><img id="img" src="imagens/voltar.png" alt="voltar"></abbr></a>
+        </div>
     
 </body>
 </html>
