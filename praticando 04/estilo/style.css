@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+button:hover{
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+}
+button{
+    margin-left: 220px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+iframe{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+div{
+    border: 1px solid black;
+    width: 650px;
+    background-color: aqua;
+}
+img{
+    margin-left: 285px;
+}
