@@ -11,12 +11,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: cadetblue;
-  background: url(../imagem/fundo.jpg) no-repeat;
+  background: url(../imagem/fundo2.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   
 }
-body, html{
+html{
     height: 100vh;
 }
 
@@ -55,7 +55,7 @@ caption {
 table {
   border-collapse: collapse;
   width: 600px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
   
 }
 .container {
@@ -107,7 +107,4 @@ a:hover {
   padding-left: 10px;
   font-size: 1.2em;
 }
-footer {
-  margin: auto;
 
-}
