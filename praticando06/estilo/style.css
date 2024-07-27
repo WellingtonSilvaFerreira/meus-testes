@@ -56,7 +56,8 @@ caption {
 table {
   border-collapse: collapse;
   width: 500px;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
+  height: 350px;
   
 }
 .container {
@@ -81,8 +82,8 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.288);
-  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 0px;
   
   
 }
@@ -105,6 +106,7 @@ a:hover {
 .infor h2 {
   color: white;
   font-size: .9em;
+  
 }
 #p {
   color: white;
