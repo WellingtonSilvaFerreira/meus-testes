@@ -6,11 +6,11 @@
 
   * {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: cadetblue;
   background: url(../imagem/fundo2.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
@@ -54,7 +54,7 @@ caption {
 }
 table {
   border-collapse: collapse;
-  width: 600px;
+  width: 500px;
   margin-bottom: 50px;
   
 }
@@ -91,7 +91,7 @@ th {
   padding-left: 10px;
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 a:hover {
   color: red;
@@ -100,11 +100,11 @@ a:hover {
 
 .infor h2 {
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 #p {
   color: white;
   padding-left: 10px;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
