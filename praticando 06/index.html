@@ -8,57 +8,99 @@
 
         body{
             font-family: Arial, Helvetica, sans-serif;
-            border: 1px solid black;
+            border: 2px solid black;
             background-color: cadetblue;
             
         }
     
         h1{
             text-align: center;
-            font-size: 3.5em;
+            font-size: 4.5em;
             color: coral;
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.815);
+            margin: 30px;
         }
         td,th{
             border: 1px solid black;
             padding: 8px;
+        }
+        th{
+            background-color: rgba(210, 105, 30, 0.788);
+            color: white;
+            text-shadow: 1px 1px 2px black;
+            
+            
+        }
+        td{
+            font-weight: bold;
+            font-size: 1.5em;
+            text-align: center;
+            background-color: rgba(255, 0, 0, 0.568);
+            color: white;
+            text-justify: auto;
+            text-shadow: 1px 1px 1px black;
         }
         caption{
             text-align: center;
         }
         table{
             border-collapse: collapse;
+            width: 600px;
+            margin-bottom: 20px;
+            
         }
         .container{
             display: flex;
             justify-content: center;
             align-items: center;
         }
+        .container caption{
+            font-size: 3em;
+            color: white;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px black;
+            margin-bottom: 20px;
+        }
        
         th{
             font-weight: bolder;
             font-size: 2em;
         }
-        footer{
+        
+        
+
+        .infor{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: black;
-            color: white;
-            padding: 10px;
-            margin-top: 10px;
             
         }
-        footer > #iinst{
-            width: 50px;
+        .infor img{
+            width: 45px;
             border-radius: 50%;
+            margin-left:  10px;
         }
-        footer a{
+        .infor a{
+            padding-left: 10px;
             text-decoration: none;
             color: white;
+            font-size: 1.2em;
         }
         a:hover{
-            color: aqua;
+            color: red;
             text-decoration: underline;
         }
 
+        .infor h2{
+            color: white;
+            font-size: 1.5em;
+        }
+        #p{
+            color: white;
+            padding-left: 10px;
+            font-size: 1.2em;
+        }
     </style>
 </head>
 <body>
@@ -69,7 +111,7 @@
 
     <div class="container">
         <table>
-            <caption>Serviços Oferecidos</caption>
+            
             <thead>
                 <tr>
                     <th>Cortes</th>
@@ -105,24 +147,31 @@
         
         </table>
     </div>
-    <div>
-        <footer>
-            <h2>Contatos:</h2>
-            <img src="imagem/whatsapp.png" alt="">
-            <a href="https://web.whatsapp.com/send?phone=5583986654368" target="_blank">
-                <p>(83) 98665-4368</p>
-            </a>
-            <img id="iinst" src="imagem/instagram-icone.jfif" alt="Instagram">
-            <a href="https://www.instagram.com/gsbarbearia/" target="_blank">
-                <p>Segue lá</p>
-            </a>
-            <h2>Horário de Funcionamento:</h2>
-            <p>08h às 19h</p>
-            <h2>Localização</h2>
+
+            <div class="infor">
+                <h2>Contatos:</h2>
+                <img src="imagem/whatsapp.png" alt="Whatsapp">
+
+                <a href="https://web.whatsapp.com/send?phone=5583986654368" target="_blank">
+                    <p>(83) 98665-4368</p></a>
+
+                <img id="iinst" src="imagem/instagram-icone.jfif" alt="Instagram">
+
+                <a href="https://www.instagram.com/gsbarbearia/" target="_blank">
+                    <p>Segue lá</p></a>
+            </div>
+
+            <div class="infor">
+            <h2>Horário:</h2>
+            <p id="p">08h às 19h</p>
+            </div>
+
+            <div class="infor">
+            <h2>Localização:</h2>
             <a href="https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Bonif%C3%A1cio,+1139+-+Lot.+Brasil,+Jo%C3%A3o+Pessoa+-+PB,+58088-560/@-7.1534961,-34.9077055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ace855a27d5673:0x3f024094017e8529!8m2!3d-7.1534961!4d-34.9051306!16s%2Fg%2F11fylqhj75?entry=ttu" target="_blank"><p>Av José Bonifácio nº 1139</p></a>
+            </div>
         
-        </footer>
-    </div>
+    
     </main>
 </body>
 </html>
