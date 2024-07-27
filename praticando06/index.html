@@ -1,190 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" media="screen and (orientation: portrait)">
-    <link rel="shortcut icon" href="gs-icon.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      media="screen and (orientation: portrait)"
+    />
+    <link rel="shortcut icon" href="gs-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="estilo/style.css" />
     <title>GS Barbearia</title>
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-        :root{
-            --font:"Passion One", sans-serif;
-        }
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: cadetblue; 
-            background-image: url(imagem/fundo.jpg);
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100%;
-            
-                     
-        }
-       
-    
-        h1{
-            font-family: var(--font);
-            text-align: center;
-            font-size: 8em;
-            color: rgba(255, 7, 7, 0.795);
-            text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
-            margin: 30px;
-            font-variant: small-caps;
-        }
-        td,th{
-            border: 1px solid black;
-            padding: 8px;
-        }
-        th{
-            background-color: rgba(210, 105, 30, 0.788);
-            color: white;
-            text-shadow: 1px 1px 2px black;
-            
-            
-        }
-        td{
-            font-weight: bold;
-            font-size: 1.5em;
-            text-align: center;
-            background-color: rgba(255, 0, 0, 0.568);
-            color: white;
-            text-justify: auto;
-            text-shadow: 1px 1px 1px black;
-        }
-        caption{
-            text-align: center;
-        }
-        table{
-            border-collapse: collapse;
-            width: 600px;
-            margin-bottom: 200px;
-            
-        }
-        .container{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .container caption{
-            font-size: 3em;
-            color: white;
-            font-weight: bold;
-            text-shadow: 1px 1px 2px black;
-            margin-bottom: 20px;
-        }
-       
-        th{
-            font-weight: bolder;
-            font-size: 2em;
-        }
-        
-        
-
-        .infor{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-            
-        }
-        .infor img{
-            width: 45px;
-            border-radius: 50%;
-            margin-left:  10px;
-        }
-        .infor a{
-            padding-left: 10px;
-            text-decoration: none;
-            color: white;
-            font-size: 1.2em;
-        }
-        a:hover{
-            color: red;
-            text-decoration: underline;
-        }
-
-        .infor h2{
-            color: white;
-            font-size: 1.5em;
-        }
-        #p{
-            color: white;
-            padding-left: 10px;
-            font-size: 1.2em;
-        }
-        footer{
-            margin-bottom: 0%;
-        }
-    </style>
-</head>
-<body>
-
+  </head>
+  <body>
     <main>
+      <h1>GS Barbearia</h1>
 
-    <h1>GS Barbearia</h1>
-
-    <div class="container">
+      <div class="container">
         <table>
-            <caption>Tabela de Valores</caption>
-            <thead>
-                <tr>
-                    <th>Cortes</th>
-                    <th>Valor</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Degradê</td>
-                    <td>R$ 20,00</td>
-                </tr>
-                <tr>
-                    <td>Social / Militar</td>
-                    <td>R$ 17,00</td>
-                </tr>
-                <tr>
-                    <td>Barba</td>
-                    <td>R$ 17,00</td>
-                </tr>
-                <tr>
-                    <td>Cabelo e Barba</td>
-                    <td>R$ 30,00</td>
-                </tr>
-                <tr>
-                    <td>Sobrancelhas</td>
-                    <td>R$ 5,00</td>
-                </tr>
-                <tr>
-                    <td>Acabamento</td>
-                    <td>R$ 5,00</td>
-                </tr>
-            </tbody>
-        
+          <caption>
+            Tabela de Valores
+          </caption>
+          <thead>
+            <tr>
+              <th>Cortes</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Degradê</td>
+              <td>R$ 20,00</td>
+            </tr>
+            <tr>
+              <td>Social / Militar</td>
+              <td>R$ 17,00</td>
+            </tr>
+            <tr>
+              <td>Barba</td>
+              <td>R$ 17,00</td>
+            </tr>
+            <tr>
+              <td>Cabelo e Barba</td>
+              <td>R$ 30,00</td>
+            </tr>
+            <tr>
+              <td>Sobrancelhas</td>
+              <td>R$ 5,00</td>
+            </tr>
+            <tr>
+              <td>Acabamento</td>
+              <td>R$ 5,00</td>
+            </tr>
+          </tbody>
         </table>
-    </div>
+      </div>
     </main>
-        <footer>
-            
-                <div class="infor">
-                    <h2>Contatos:</h2>
-                    <img src="imagem/whatsapp.png" alt="Whatsapp">
-                    <a href="https://web.whatsapp.com/send?phone=5583986654368" target="_blank">
-                        <p>(83) 98665-4368</p></a>
-                    <img id="iinst" src="imagem/instagram-icone.jfif" alt="Instagram">
-                    <a href="https://www.instagram.com/gsbarbearia/" target="_blank">
-                        <p>Segue lá</p></a>
-                </div>
-                <div class="infor">
-                <h2>Horário:</h2>
-                <p id="p">08h às 19h</p>
-                </div>
-                <div class="infor">
-                <h2>Localização:</h2>
-                <a href="https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Bonif%C3%A1cio,+1139+-+Lot.+Brasil,+Jo%C3%A3o+Pessoa+-+PB,+58088-560/@-7.1534961,-34.9077055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ace855a27d5673:0x3f024094017e8529!8m2!3d-7.1534961!4d-34.9051306!16s%2Fg%2F11fylqhj75?entry=ttu" target="_blank"><p>Av José Bonifácio nº 1139</p></a>
-                </div>
-            
-        </footer>
-    
-    
-</body>
+    <footer>
+      <div class="infor">
+        <h2>Contatos:</h2>
+        <img src="imagem/whatsapp.png" alt="Whatsapp" />
+        <a
+          href="https://web.whatsapp.com/send?phone=5583986654368"
+          target="_blank"
+        >
+          <p>(83) 98665-4368</p></a
+        >
+        <img id="iinst" src="imagem/instagram-icone.jfif" alt="Instagram" />
+        <a href="https://www.instagram.com/gsbarbearia/" target="_blank">
+          <p>Segue lá</p></a
+        >
+      </div>
+      <div class="infor">
+        <h2>Horário:</h2>
+        <p id="p">08h às 19h</p>
+      </div>
+      <div class="infor">
+        <h2>Localização:</h2>
+        <a
+          href="https://www.google.com.br/maps/place/Av.+Jos%C3%A9+Bonif%C3%A1cio,+1139+-+Lot.+Brasil,+Jo%C3%A3o+Pessoa+-+PB,+58088-560/@-7.1534961,-34.9077055,17z/data=!3m1!4b1!4m6!3m5!1s0x7ace855a27d5673:0x3f024094017e8529!8m2!3d-7.1534961!4d-34.9051306!16s%2Fg%2F11fylqhj75?entry=ttu"
+          target="_blank"
+          ><p>Av José Bonifácio nº 1139</p></a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
