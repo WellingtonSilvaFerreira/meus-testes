@@ -23,7 +23,7 @@ html{
 h1 {
   font-family: var(--font);
   text-align: center;
-  font-size: 8em;
+  font-size: 5em;
   color: rgba(255, 7, 7, 0.795);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
   margin: 30px;
@@ -64,7 +64,7 @@ table {
   align-items: center;
 }
 .container caption {
-  font-size: 3em;
+  font-size: 1.5em;
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 2px black;
