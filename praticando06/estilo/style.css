@@ -29,6 +29,8 @@ h1 {
   margin: 30px;
   font-variant: small-caps;
   margin: auto;
+  letter-spacing: .2px;
+  gap: 5px;
 }
 td,th {
   border: 1px solid black;
@@ -92,7 +94,7 @@ th {
 .infor a {
   padding-left: 10px;
   text-decoration: none;
-  color: white;
+  color: blue;
   font-size: .8em;
 }
 a:hover {
