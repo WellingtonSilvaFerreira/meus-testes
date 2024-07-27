@@ -24,8 +24,8 @@ h1 {
   font-family: var(--font);
   text-align: center;
   font-size: 4em;
-  color: rgba(255, 7, 7, 0.795);
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
+  color: rgb(255, 7, 7);
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.404);
   margin: 30px;
   font-variant: small-caps;
   margin: auto;
@@ -35,7 +35,7 @@ td,th {
   padding: 7px;
 }
 th {
-  background-color: rgba(210, 105, 30, 0.788);
+  background-color: rgba(210, 105, 30, 0.548);
   color: white;
   text-shadow: 1px 1px 2px black;
 }
@@ -43,7 +43,7 @@ td {
   font-weight: bold;
   font-size: 1em;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.315);
+  background-color: rgba(247, 59, 59, 0.397);
   color: white;
   text-justify: auto;
   text-shadow: 1px 1px 1px black;
@@ -79,8 +79,10 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.459);
   padding: 5px;
+  
+  
 }
 .infor img {
   width: 45px;
