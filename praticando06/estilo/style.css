@@ -23,17 +23,16 @@ html{
 h1 {
   font-family: var(--font);
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
   color: rgba(255, 7, 7, 0.795);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.644);
   margin: 30px;
   font-variant: small-caps;
   margin: auto;
 }
-td,
-th {
+td,th {
   border: 1px solid black;
-  padding: 8px;
+  padding: 7px;
 }
 th {
   background-color: rgba(210, 105, 30, 0.788);
@@ -42,9 +41,9 @@ th {
 }
 td {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.568);
+  background-color: rgba(255, 0, 0, 0.315);
   color: white;
   text-justify: auto;
   text-shadow: 1px 1px 1px black;
@@ -55,7 +54,7 @@ caption {
 table {
   border-collapse: collapse;
   width: 500px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   
 }
 .container {
@@ -68,7 +67,7 @@ table {
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 2px black;
-  margin-bottom: 20px;
+  margin: 8px;
 }
 
 th {
