@@ -47,8 +47,11 @@ td {
   text-align: center;
   background-color: rgba(247, 59, 59, 0.178);
   color: white;
-  text-justify: auto;
-  
+  text-justify: auto;  
+}
+td:hover{
+  background-color: cadetblue;
+  transition: 0.5s;
 }
 caption {
   text-align: center;
@@ -97,6 +100,7 @@ th {
   text-decoration: none;
   color: white;
   font-size: .8em;
+  transition: 0.5s;
 }
 a:hover {
   color: red;
