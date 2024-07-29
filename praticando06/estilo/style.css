@@ -1,17 +1,18 @@
 @charset "utf-8";
 
 @import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
 :root {
   --font: "Passion One", sans-serif;
-
-  * {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
-  }
 }
+
 body {
-  background: url(../imagem/logoGS.jpg) no-repeat;
+  background: url(../imagem/fundo.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
   
@@ -23,7 +24,7 @@ html{
 h1 {
   font-family: var(--font);
   text-align: center;
-  font-size: 2.5em;
+  font-size: 3.5em;
   color: rgb(255, 7, 7);
   text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.404);
   margin: 30px;
@@ -32,44 +33,54 @@ h1 {
   letter-spacing: .2px;
   gap: 5px;
 }
+
 td,th {
   border: 1px solid black;
   padding: 7px;
 }
+
 th {
   background-color: rgba(210, 105, 30, 0.548);
   color: white;
   text-shadow: 1px 1px 2px black;
 }
+
 td {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   background-color: rgba(247, 59, 59, 0.178);
-  color: white;
+  color: black;
   text-justify: auto;  
 }
+
 td:hover{
   background-color: cadetblue;
   border: 2px solid black;
   transition: 0.5s;
-  
 }
+
 caption {
   text-align: center;
 }
+
 table {
   border-collapse: collapse;
   width: 500px;
   margin-bottom: 40px;
   height: 350px;
-  
+  background-image: url(../imagem/logoGSp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .container caption {
   font-size: 1.5em;
   color: white;
@@ -89,9 +100,8 @@ th {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.856);
   padding: 0px;
-  
-  
 }
+
 .infor img {
   width: 20px;
   border-radius: 50%;
@@ -104,6 +114,7 @@ th {
   font-size: .8em;
   transition: 0.5s;
 }
+
 a:hover {
   color: red;
   text-decoration: underline;
@@ -114,6 +125,7 @@ a:hover {
   font-size: .9em;
   
 }
+
 #p {
   color: white;
   padding-left: 10px;
