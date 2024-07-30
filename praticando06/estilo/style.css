@@ -11,10 +11,12 @@
   --font: "Passion One", sans-serif;
 }
 
+
 body {
   background: url(../imagem/fundo.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  
   
 }
 html{
@@ -69,7 +71,7 @@ caption {
 
 table {
   border-collapse: collapse;
-  width: 80vw;
+  width: 90vw;
   margin-bottom: 40px;
   height: 350px;
   background-color: rgba(210, 105, 30, 0.226);
@@ -102,7 +104,7 @@ th {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.856);
-  padding: 0px;
+  
 }
 
 .infor img {
