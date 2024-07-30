@@ -49,10 +49,11 @@ td {
   font-weight: bold;
   font-size: 1.5em;
   text-align: center;
-  background-color: rgba(247, 59, 59, 0.178);
-  color: wheat;
+  
+  color: white;
   text-justify: auto;  
 }
+
 
 td:hover{
   background-color: cadetblue;
@@ -69,7 +70,7 @@ table {
   width: 500px;
   margin-bottom: 40px;
   height: 350px;
-  background-image: url(../imagem/logoGSp.jpg);
+  background-color: rgba(210, 105, 30, 0.226);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
