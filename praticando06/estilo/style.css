@@ -127,7 +127,7 @@ th {
   text-decoration: none;
   color: black;
   font-weight: bolder;
-  font-size: 1em;
+  font-size: .8em;
   transition: 0.5s;
 }
 
@@ -145,7 +145,7 @@ a:hover {
 #p {
   color: black;
   padding-left: 10px;
-  font-size: 1em;
+  font-size: .8em;
   font-weight: bold;
 }
 
