@@ -110,10 +110,16 @@ th {
 }
 
 .infor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ display: flex;
+ align-items: center;
+ justify-items: center;
+ padding-left: 25px;
+ padding-top: 7px;
+}
+.geral{
   background-color: #C3AA4F;
+  height: 15vh;
+  border-radius: 10px;
   
 }
 
@@ -139,6 +145,7 @@ a:hover {
 .infor h2 {
   color: black;
   font-size: 1em;
+  
   
 }
 
