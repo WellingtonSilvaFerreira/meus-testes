@@ -87,9 +87,7 @@ table {
   margin-bottom: 40px;
   height: 350px;
   background-color: rgba(210, 105, 30, 0.226);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  
 }
 
 .container {
@@ -115,7 +113,7 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.856);
+  background-color: #C3AA4F;
   
 }
 
@@ -127,8 +125,9 @@ th {
 .infor a {
   padding-left: 4px;
   text-decoration: none;
-  color: white;
-  font-size: .8em;
+  color: black;
+  font-weight: bolder;
+  font-size: 1em;
   transition: 0.5s;
 }
 
@@ -138,14 +137,15 @@ a:hover {
 }
 
 .infor h2 {
-  color: white;
-  font-size: .9em;
+  color: black;
+  font-size: 1em;
   
 }
 
 #p {
-  color: white;
+  color: black;
   padding-left: 10px;
-  font-size: .8em;
+  font-size: 1em;
+  font-weight: bold;
 }
 
