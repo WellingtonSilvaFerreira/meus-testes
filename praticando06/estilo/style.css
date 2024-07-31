@@ -112,16 +112,13 @@ th {
 .infor {
  display: flex;
  align-items: center;
- justify-items: center;
+ justify-content: center;
  padding-left: 25px;
- padding-top: 7px;
+ padding-top: 7 px;
+ background-color: #C3AA4F;
 }
-.geral{
-  background-color: #C3AA4F;
-  height: 15vh;
-  border-radius: 10px;
-  
-}
+
+
 
 .infor img {
   width: 20px;
