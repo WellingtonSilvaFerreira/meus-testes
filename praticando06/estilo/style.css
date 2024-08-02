@@ -20,6 +20,7 @@ header >img{
   display: flex;
   align-items: center;
   justify-items: auto;
+  border-radius: 15px;
 }
 
 body {
@@ -27,11 +28,11 @@ body {
   background-size: cover;
   background-position: center center;
   
+  
 }
 html{
     height: 100dvh;
 }
-
 
 h2{
   color: white;
@@ -46,7 +47,7 @@ td,th {
 }
 
 th {
-  background-color: rgba(210, 105, 30, 0.548);
+  background-color: #d2691e8c;
   color: white;
   text-shadow: 1px 1px 2px black;
 }
