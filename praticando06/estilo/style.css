@@ -29,19 +29,10 @@ body {
   
 }
 html{
-    height: 100vh;
+    height: 100dvh;
 }
 
-h1 {
-  font-family: var(--font);
-  text-align: center;
-  font-size: 4.5em;
-  color: rgb(255, 7, 7);
-  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.616);
-  margin: auto;
-  letter-spacing: .2px;
-  
-}
+
 h2{
   color: white;
   text-align: center;
@@ -61,11 +52,12 @@ th {
 }
 
 td {
-  font-weight: bold;
+  
   font-size: 1.5em;
   text-align: center;
   color: white;
   text-justify: auto;  
+  
 }
 
 td:hover{
@@ -76,6 +68,7 @@ td:hover{
 
 caption {
   text-align: center;
+  
 }
 
 table {
