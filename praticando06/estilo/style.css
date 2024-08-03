@@ -25,11 +25,10 @@ header >img{
 
 body {
   background: url(../imagem/fundo.jpg) no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center center;
   
-  
-}
+  }
 html{
     height: 100dvh;
 }
