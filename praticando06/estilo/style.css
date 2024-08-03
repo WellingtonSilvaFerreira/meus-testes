@@ -6,12 +6,6 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif; 
 }
-@media (orientation: landscape){
-  body{
-    width: 100dvw;
-    height: 100dvh;
-  }
-}
 
 :root {
   --font: "Passion One", sans-serif;
@@ -148,5 +142,12 @@ a:hover {
   padding-left: 10px;
   font-size: .8em;
   font-weight: bold;
+}
+
+@media (orientation: landscape){
+  body{
+    width: 100dvw;
+    height: 100dvh;
+  }
 }
 
