@@ -10,7 +10,7 @@ body{
 .content{
     height: 520px;
     width: 935px;
-    border-radius: 20px;
+    border-radius: 25px;
     overflow: hidden;
     position: absolute;
     top: 50%;
