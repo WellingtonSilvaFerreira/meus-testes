@@ -148,6 +148,7 @@ a:hover {
 
   body{
     background-image: url(../imagem/fundo.jpg);
+    width: 100%;
   }
 }
 
