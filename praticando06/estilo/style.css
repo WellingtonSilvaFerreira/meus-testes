@@ -151,7 +151,9 @@ a:hover {
   }
 
   body{
-    width: 750px;
+    width: 768px;
+    height: 100dvh;
+    margin-top: 5%;
     
   }
   .img{
