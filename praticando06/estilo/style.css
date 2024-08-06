@@ -23,13 +23,10 @@ header >img{
   border-radius: 15px;
 }
 
-body {
-  background: url(../imagem/fundo.jpg) no-repeat;
-  background-size: cover;
-  background-position: center center;
-  
-  }
 html{
+    background: url(../imagem/fundo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
     width: 100dvw;
     height: 100dvh;
 }
@@ -146,10 +143,23 @@ a:hover {
 
 @media screen and (min-width: 768px) {
 
-  body{
-    background-image: url(../imagem/fundo.jpg);
+  html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
   }
 
+  body{
+    width: 750px;
+    
+  }
+  .img{
+    width: 768px;
+  }
+  .geral{
+    width: 768px;
+  }
+    
   
-
+}
