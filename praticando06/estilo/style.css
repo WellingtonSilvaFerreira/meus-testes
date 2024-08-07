@@ -141,27 +141,6 @@ a:hover {
   font-weight: bold;
 }
 
-@media screen and (min-width: 768px) {
 
-  html{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-
-  body{
-    width: 768px;
-    height: 100dvh;
-    margin-top: 5%;
-    
-  }
-  .img{
-    width: 768px;
-  }
-  .geral{
-    width: 768px;
-  }
-    
   
-}
+
