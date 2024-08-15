@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <!-- classe geral -->
+    <main class="container">
+        <!--classe da imagem-->
+        <div class="imagem">
+            <img src="imagem/undraw_shopping_re_hdd9.svg" alt="imagem de compras">
+        </div>
+        <!--classe do formulario-->
+        <div class="formulario">
+
+            <form action="#">
+                <!--classe do cabecalho-->
+                <header class="cabecalho">
+                    <!--classe do titulo-->
+                    <div class="titulo">
+                        <h1>Formulário de Cadastro</h1>
+                    </div>
+                    <!--classe do botao login-->
+                    <div class="botao-login">
+                    <button><a href="#">Entrar</a></button>
+                    </div>
+
+                </header>
+
+                <div class="box-inputs">
+
+                    <div class="grupo-inputs">
+                        <label for="inome">Primeiro nome:</label>
+                        <input type="text" id="inome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="grupo-inputs">
+                        <label for="isobrenome">Sobrenome:</label>
+                        <input type="text" id="isobrenome" name="sobrenome" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="grupo-inputs">
+                        <label for="iemail">Email:</label>
+                        <input type="email" id="iemail" name="email" placeholder="Digite seu email">
+                    </div>
+
+                    <div class="grupo-inputs">
+                        <label for="inumero">Celular:</label>
+                        <input type="number" id="inumero" name="inumber" placeholder="(xx) xxxxx-xxxx" required >
+                    </div>
+
+                    <div class="grupo-inputs">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" id="isenha" name="isenha" placeholder="Digite uma senha" required minlength="8" maxlength="30">
+                    </div>
+
+                    <div class="grupo-inputs">
+                        <label for="confirmasenha">Confirme sua senha:</label>
+                        <input type="password" id="confirmasenha" name="confirmasenha" placeholder="Igual a de cima">
+                    </div>
+                    
+                </div>
+
+                <div class="box-generos">
+                    <div class="title">
+                        <h6>Gênero</h6>
+                    </div>
+
+                    <div class="Tipos-generos">
+
+                        <div class="generos">
+                            <input type="radio" id="feminino" name="genero">
+                            <label for="feminino">Feminino</label>
+                        </div>
+
+                        <div class="generos">
+                            <input type="radio" id="masculino" name="genero">
+                            <label for="masculino">Masculino</label>
+                        </div>
+
+                        <div class="generos">
+                            <input type="radio" id="outros" name="genero">
+                            <label for="outros">Outros</label>
+                        </div>
+
+                        <div class="generos">
+                            <input type="radio" id="none" name="nome">
+                            <label for="none">Prefiro não me identificar</label>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="botao-continuar">
+                    <button><a href="#">Cadastre-se</a></button>
+
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+    
+</body>
+</html>
