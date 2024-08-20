@@ -31,7 +31,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #E04938;
-    padding: 1em;
+    padding: 1rem;
 }
 
 .imagem img{
@@ -45,11 +45,140 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: #BEE038;
+    padding: 3rem;
+}
+
+.cabecalho h1{
+    letter-spacing: 0.2rem;
 }
 
 .cabecalho{
-    margin: 3rem;
+    margin-bottom: 3rem;
     display: flex;
     justify-content: space-between;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.603);
+    
+}
+
+.botao-login{
+    display: flex;
+    align-items: center;
+}
+
+.botao-login button{
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.botao-login button:hover{
+    background-color: #867ffca1;
+}
+
+.botao-login button a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.cabecalho h1::before{
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+.cabecalho h1::after{
+    content: '';
+    display: block;
+    width: 18.6rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.box-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.grupo-inputs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.grupo-inputs input{
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px #0000001c;
+}
+
+.grupo-inputs input:hover{
+    background-color: #eeeeee7e;
+}
+
+.grupo-inputs label, title{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #000000c0;
+    letter-spacing: 0.1rem;
+}
+
+.grupo-inputs input::placeholder{
+    color: #000000be;
+}
+
+.tipos-generos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.generos input{
+    margin-right: 0.35rem;
+}
+
+.generos label{
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+    color: #000000c0;
+}
+
+.botao-continuar button{
+    width: 100%;
+    border: none;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.62rem;
+    margin-top: 15px;
+}
+
+.botao-continuar button:hover{
+    background-color: #857ffcce;
+}
+
+.botao-continuar button a{
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    
 }
