@@ -121,7 +121,7 @@ body{
     margin: 0.6rem 0;
     padding: 0.8rem 1.2rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 1px 1px 1px #0000001c;
 }
 
@@ -179,6 +179,17 @@ body{
     color: #fff;
 }
 
-@media screen and (max-width: 1330px) {
-    
+@media screen and (max-width: 1200px){
+    .imagem{
+        display: none;
+    }
+
+    .container{
+        width: 50%;
+    }
+
+    .formulario{
+        width: 100vw;
+    }
 }
+
