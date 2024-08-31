@@ -29,6 +29,7 @@ html{
     background-position: center center;
     width: 100dvw;
     height: 100dvh;
+    
 }
 
 h2{
@@ -104,9 +105,10 @@ th {
  padding-left: 25px;
  padding-top: 7 px;
  background-color: #C3AA4F;
+ margin: 5px;
+ border-radius: 5px;
+ height: 35px;
 }
-
-
 
 .infor img {
   width: 20px;
