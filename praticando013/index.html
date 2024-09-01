@@ -7,38 +7,31 @@
     <style>
        
         .container{
+            width: 1000px;
+            height: 1000px;
+            background-color: bisque;
             display: flex;
-            justify-content: space-around;
-            
+            justify-content: center;
+            flex-wrap: wrap;
+            align-content: flex-end;
+            /*align-items: flex-end;*/
         }
 
         .grupo{
+            width: 300px;
+            height: 300px;
             border: 1px solid black;
             background-color: aqua;
-        }
-
-        .grupo p{
-            padding: 5px;
-        }
-
-        .grupo-2{
-            border: 1px solid black;
-            background-color: aqua;
-            
+            margin: 10px;
+            text-align: center;
         }
 
         #ob1{
             border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
         }
 
-        #obj2{
-            
-        }
+       
 
-        .outra{
-            display: grid;
-            
-        }
     </style>
 </head>
 <body>
@@ -53,21 +46,16 @@
         </div>
         <div class="grupo">
             <p>Obj 03</p>
-        </div> 
+        </div>
+        <div class="grupo">
+            <p>Obj 04</p>
+        </div>  
     </div>
 
-    <div class="outra">
-        <div class="grupo-2">
-            <p>Obj4</p>
-        </div>
-        <div class="grupo-2">
-            <p>Obj5</p>
-        </div>
-        <div class="grupo-2">
-            <p>Obj6</p>
-        </div>
+    
+    
 
-    </div>
+    
     
     
 </body>
