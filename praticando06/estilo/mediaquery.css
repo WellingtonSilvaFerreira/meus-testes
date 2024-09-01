@@ -5,6 +5,7 @@
     body{
         display: flex;
         flex-direction: column;
+        
     }
 
     header img{
@@ -17,5 +18,10 @@
         height: 80px;
         margin-bottom: 5px;
     }
+
+    .geral{
+        width: 80%;
+        margin-left: 79px
+        }
    
 }
