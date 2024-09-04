@@ -4,27 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header">
 
-        <a href="#" class="logo"><img src="imagens/logo.png" alt="logo"></a>
+        <section>
+    
+            <a href="#" class="logo"><img src="imagens/logo.png" alt="logo"></a>
+    
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
 
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="#about">Sobre</a>
-            <a href="#menu">Menu</a>
-            <a href="#review">Avaliações</a>
-            <a href="#address">Endereço</a>
-        </nav>
-        <div class="icons">
-            <img src="https://icons.iconarchive.com/icons/gakuseisean/aire/128/Search-icon.png" width="80" height="80">
-            <img src="https://icons.iconarchive.com/icons/pictogrammers/material/128/cart-outline-icon.png" width="80" height="80">
+            <div class="icons">
+                <img src="imagens/search.png">
+                <img src="imagens/cart.png
+                " alt="">
+            </div>
 
-        </div>
+        </section>
 
     </header>
+
+    <div class="home-container">
+        <section id="home">
+            <div class="content">
+                <h3>Code com o melhor café da região</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero recusandae provident vitae, explicabo sit architecto quibusdam asperiores minima modi quia dolores, neque nemo quo consequuntur illum repudiandae cum, quos facere!</p>
+                <a href="#" class="btn">Peça o seu agora</a>
+            </div>
+
+        </section>
+    </div>
+    <section class="about" id="about">
+        <h2 class="title">Sobre <span>Nós</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="imagens/about-img.jpg" alt="sobre-nos">
+            </div>
+            <div class="content">
+                <h3>O que faz o noso café especial?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga consectetur beatae laborum consequuntur cumque rem a quos qui! Distinctio explicabo minus ipsum dolorem rem maiores, repellat impedit quisquam excepturi repellendus.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non ullam quo quasi dolorum, cumque accusantium veniam in dolorem modi a sapiente at ad repellat ipsam voluptatibus! Dolore mollitia eveniet natus!</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </div>
+        </div>
+
+    </section>
     
 </body>
 </html>
