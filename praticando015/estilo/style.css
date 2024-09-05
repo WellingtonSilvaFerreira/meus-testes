@@ -193,3 +193,9 @@ div.icons img:hover{
 .menu .box-container .box:hover > *{
     color: var(--black);
 }
+
+.review .box-container .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
