@@ -195,7 +195,27 @@ div.icons img:hover{
 }
 
 .review .box-container .box{
+    border: var(--border);
+    margin: 20px;
+    background-color: #fff; 
+    padding: 5px;
+    width: 400px;
+    height: 400px;
+
+}
+.box-container .box p{
+    text-align: justify;
+}
+.box-container .box img{
+    display: block;
+    flex-direction: row;
+}
+
+.review .box-container .box:hover{
+    background-color: var(--black);
+    color: #fff;
+}
+
+.review .box-container{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
