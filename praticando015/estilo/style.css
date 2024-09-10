@@ -197,14 +197,14 @@ div.icons img:hover{
 .review .box-container .box{
     border: var(--border);
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
 }
 
 .review .box-container .box p{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #fff;
     padding: 2rem 0;
-    line-height: 1.8rem;
+    line-height: 1.5rem;
 }
 
 .review .box-container .box h3{
@@ -228,4 +228,25 @@ div.icons img:hover{
 .address > iframe{
     border: var(--border);
     padding: 1rem;
+}
+
+.footer{
+    text-align: center;
+
+}
+
+.footer .share{
+    padding: 1rem 0;
+}
+
+.footer .share img{
+    margin: 0.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+.footer .share img:hover{
+    background-color: var(--main-color);
+    
 }
