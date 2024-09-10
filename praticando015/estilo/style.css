@@ -154,7 +154,7 @@ div.icons img:hover{
 
 }
 
-.menu .box-container{
+.box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem,1fr));
     gap: 1rem;
@@ -196,26 +196,36 @@ div.icons img:hover{
 
 .review .box-container .box{
     border: var(--border);
-    margin: 20px;
-    background-color: #fff; 
-    padding: 5px;
-    width: 400px;
-    height: 400px;
-
-}
-.box-container .box p{
-    text-align: justify;
-}
-.box-container .box img{
-    display: block;
-    flex-direction: row;
+    text-align: center;
+    padding: 3rem 2rem;
 }
 
-.review .box-container .box:hover{
-    background-color: var(--black);
+.review .box-container .box p{
+    font-size: 1.5rem;
     color: #fff;
+    padding: 2rem 0;
+    line-height: 1.8rem;
 }
 
-.review .box-container{
+.review .box-container .box h3{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+
+.address{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.address > iframe{
+    border: var(--border);
+    padding: 1rem;
 }
