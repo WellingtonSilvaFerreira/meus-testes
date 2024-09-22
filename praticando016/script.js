@@ -4,12 +4,19 @@ const conteudo = document.querySelector('.conteudo')
 const background = document.querySelector('.background')
 
 botao.addEventListener('click', ()=> {
-    menuLateral.classList.add('ativo')
-    botao.classList.add('ativo')
-    conteudo.classList.add('ativo')
-    background.classList.add('ativo')
+    menuLateral.classList.toggle('ativo')
+    botao.classList.toggle('ativo')
+    conteudo.classList.toggle('ativo')
+    background.classList.toggle('ativo')
     document.body.style.backgroundColor = menuLateral.classList.contains('ativo') ? '#34495e' : '#ecf0f1'
 
 })
 
-background.addEventListener('click', )
+background.addEventListener('click', ()=> {
+    menuLateral.classList.remove('ativo')
+    botao.classList.remove('ativo')
+    conteudo.classList.remove('ativo')
+    background.classList.remove('ativo')
+    document.body.style.backgroundColor = '#ecf0f1'
+})
+
